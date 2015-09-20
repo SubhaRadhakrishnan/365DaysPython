@@ -10,7 +10,6 @@ def numberCalc(inNum):
     resultStr = str('{0:03d}'.format(resultPowFloor))
     strLength = len(resultStr)
     return  resultStr[strLength-3:strLength] + '\n'
-
 from sys import argv
 script, inFilename = argv
 print( "File Name is",inFilename)
