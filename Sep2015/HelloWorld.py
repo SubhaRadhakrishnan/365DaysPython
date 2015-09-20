@@ -1,4 +1,3 @@
-__author__ = 'SUBHAR'
 __Date__ = '9/20/2015'
 
 print("Hello World!")
