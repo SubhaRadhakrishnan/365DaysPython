@@ -5,9 +5,8 @@ __Date__ = '9/26/2015'
 For example, 13 is a divisor of 26 because 26/13 has no remainder.)
 """
 number=int(input("Please enter a number greater than 2:"))
-possDivisors = list(range(2,(number//2)+1))
 divisorList = []
-for x in possDivisors:
+for x in range(2,(number//2)+1):
     if (number %x)==0:
         divisorList.append(x)
 print(divisorList)
