@@ -10,8 +10,8 @@ Extras:
 2.Write this in one line of Python (don't worry if you can't figure this out at this point - we'll get to it soon)
 """
 import random
-firstArr = random.sample(range(100),random.randint(1,50))
-secArr = random.sample(range(100),random.randint(1,50))
+firstArr = random.sample(range(100),random.randint(1,40))
+secArr = random.sample(range(100),random.randint(1,40))
 print(firstArr)
 print(secArr)
 resultArr=[]
